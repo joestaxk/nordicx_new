@@ -20,7 +20,8 @@ export default {
       screens: {
         "x3xl": "1690px",
         "x2xl": "1453px",
-        "xsm": "468px"
+        "xsm": "468px",
+        "xxs": "344px"
       }
     },
   },
