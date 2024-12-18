@@ -55,7 +55,7 @@ export default function HorizontalScrollUi({
         <div
             ref={containerRef}
             onScroll={scrollHandler}
-            className={`relative w-full flex items-center gap-2 scroll-smooth no-scrollbar my-2 ${className}`}>
+            className={`relative hide-scrollbar w-full flex items-center gap-2 scroll-smooth no-scrollbar my-2 ${className}`}>
                 {children}
                 {isScrollable && <div className={`
                      top-0 h-[40px] min-w-[20px] 

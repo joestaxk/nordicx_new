@@ -112,7 +112,7 @@ export default function SearchPairs() {
                 </button>
             </HorizontalScrollUi>
 
-            <HorizontalScrollUi className='overflow-x-auto w-full py-1'>
+            <HorizontalScrollUi className='overflow-x-auto w-full'>
                 <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
                     <MutedText className=''>All</MutedText>
                 </button>

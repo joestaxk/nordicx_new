@@ -18,7 +18,7 @@ export default function StatusHead() {
             </div>
 
             {/* fix this so it can scroll */}
-            <div className="flex gap-5 pl-3 pb-2 overflow-x-scroll  whitespace-nowrap 
+            <div className="flex  items-center gap-5 pl-3  overflow-x-auto  whitespace-nowrap 
                     w-0
                     flex-1">
                 <div className="flex shrink-0 gap-5 items-center">
