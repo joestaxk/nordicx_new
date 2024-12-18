@@ -1,5 +1,4 @@
 "use client";
-import React, { useRef, useState } from 'react'
 import TextInputUi from '../ui/input-ui'
 import MutedText from '../ui/muted-text'
 import HorizontalScrollUi from '../ui/horizontalScrollUi';

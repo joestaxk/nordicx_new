@@ -1,7 +1,6 @@
 "use client";
 import React from 'react'
 import MutedText from '../ui/muted-text'
-import HorizontalScrollUi from '../ui/horizontalScrollUi'
 
 export default function StatusHead() {
     return (
