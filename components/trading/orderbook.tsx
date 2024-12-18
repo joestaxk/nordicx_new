@@ -5,7 +5,7 @@ import MutedText from '../ui/muted-text'
 export default function Orderbook() {
     const [tab, setTabs] = useState(3)
     return (
-        <div className='w-full bg-xDark space-y-3'>
+        <div className='w-full h-full bg-xDark space-y-3'>
             <div className="text-[15px] text-white p-2">Order Book</div>
 
             <div className="flex justify-between items-center px-2">
@@ -55,9 +55,9 @@ export default function Orderbook() {
             <div className="h-full w-full x2xl:block xsm:flex block gap-1">
                 <div className="x2xl:w-auto xsm:w-1/2 w-full">
                     {/*  sell table book */}
-                    {(tab == 3 || tab == 1) && <div className="2xl:h-[400px] lg:h-[550px] h-[400px]  overflow-y-auto">
+                    {(tab == 3 || tab == 1) && <div className={`${(tab == 1) ? "max-h-[800px]" : "max-h-[450px]"} overflow-y-auto`}>
                         <table className='w-full text-left'>
-                            <thead>
+                            <thead className='sticky top-0 z-10 bg-xDark'>
                                 <tr>
                                     <th className='w-1/2 font-medium text-[13px] capitalize'>
                                         <MutedText className='capitalize'>Price(USDT)</MutedText>
@@ -94,7 +94,7 @@ export default function Orderbook() {
                     </div>}
 
                     {/* total sell divider */}
-                    {(tab == 3 || tab == 1) && <div className="flex py-4 px-2 items-center">
+                    {(tab == 3 || tab == 1) && <div className="flex py-4 px-2 items-center ">
                         <div className=" text-xRedColor inline-flex ">
                             <p className='font-semibold text-xl'>2,950.00</p>
                             <svg width="23" height="23" className='translate-y-4' viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,9 +107,9 @@ export default function Orderbook() {
                 </div>
                 {/* buy table book */}
                 <div className="x2xl:w-auto xsm:w-1/2 w-full">
-                    {(tab == 3 || tab == 2) && <div className="2xl:h-[400px] lg:h-[550px] h-[400px] overflow-y-auto">
+                    {(tab == 3 || tab == 2) && <div className={`${(tab == 2) ? "max-h-[800px]" : "max-h-[450px]"} overflow-y-auto`}>
                         <table className='w-full text-left'>
-                            <thead className='x2xl:hidden'>
+                           { (tab == 2) && <thead className='sticky top-0 z-10 bg-xDark'>
                                 <tr>
                                     <th className='w-1/2 font-medium text-[13px] capitalize'>
                                         <MutedText>price(USDT)</MutedText>
@@ -121,7 +121,7 @@ export default function Orderbook() {
                                         <MutedText>total(USDT)</MutedText>
                                     </th>
                                 </tr>
-                            </thead>
+                            </thead>}
                             {/* demo it */}
                             <tbody>
                                 {

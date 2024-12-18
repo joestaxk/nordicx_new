@@ -5,8 +5,8 @@ export default function MarketTrades() {
   return (
     <div className='bg-xDark w-full h-full pt-1'>
       <div className="font-semibold text-[15px] text-white">Market Trades</div>
-      <div className="x2xl:h-[330px] lg:h-full h-[300px] overflow-y-auto">
-        <table className='w-full text-left'>
+      <div className="overflow-y-auto x2xl:h-[330px] h-[500px]">
+        <table className='w-full  text-left'>
           <thead className='sticky top-0 z-10 bg-xDark'>
 
             <tr>
@@ -25,7 +25,7 @@ export default function MarketTrades() {
           {/* demo it */}
           <tbody>
             {
-              Array.from({ length: 20 }).map((_, index) => (
+              Array.from({ length: 40 }).map((_, index) => (
                 <tr className='relative' key={index}>
                   <td className='w-1/2 pl-2'>
                     {/* demo it... remove condition for color change */}

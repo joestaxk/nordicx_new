@@ -4,7 +4,7 @@ import TextInputUi from "../ui/input-ui";
 
 export default function Exchange() {
   return (
-    <div className="w-full pb-3 pt-0 text-white bg-xDark">
+    <div className="w-full h-full pb-3 pt-0 text-white bg-xDark">
       <div className="flex flex-wrap gap-2 justify-between items-center py-2 border-b border-gray-100/10 xsm:px-5 px-2">
         <div className="flex items-center gap-5">
           <div className="text-[16px] font-medium">Spot</div>

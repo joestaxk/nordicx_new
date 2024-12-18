@@ -9,11 +9,12 @@ import StatusHead from './statusHead'
 export default function TradingLayout() {
     return (
         <div className="w-full flex justify-center">
-            <div className='x3xl:w-[1670px] w-[1400px] max-w-full grid 2xl:grid-cols-5 grid-cols-3 gap-1'>
-                <div className="x2xl:block hidden col-span-1 w-full h-[900px]">
+            <div className='x3xl:w-[1670px] w-[1400px] max-w-full grid x2xl:grid-cols-5 lg:grid-cols-6 grid-cols-4 gap-1'>
+                <div className="x2xl:grid hidden col-span-1 h-[900px] overflow-hidden">
                     <Orderbook />
                 </div>
-                <div className="w-full xl:col-span-3 col-span-4 min-h-[900px] gap-1 grid x2xl:grid-rows-5">
+                {/* MIDDLE */}
+                <div className="w-full relative x2xl:col-span-3 col-span-4 min-h-[900px] gap-1 grid x2xl:grid-rows-5">
                     <div className="row-span-3 gap-1 grid grid-rows-6">
                         {/* status  heade */}
                         <div className="row-span-1 w-full">
@@ -26,7 +27,7 @@ export default function TradingLayout() {
                     <div className="row-span-2">
                         <Exchange />
                     </div>
-                    <div className="lg:hidden block col-span-1 w-full x2xl:h-[900px]">
+                    <div className="lg:hidden overflow-hidden x2xl:h-[900px]">
                         <SearchPairs />
                     </div>
                     <div className="x2xl:hidden block col-span-1 w-full x2xl:h-[900px]">
@@ -37,17 +38,18 @@ export default function TradingLayout() {
                     </div>
                 </div>
 
-                <div className="hidden col-span-1 w-full hx-[900px] gap-1 lg:grid grid-rows-5">
+                <div className="hidden x2xl:col-span-1 col-span-2 min-h-[900px] gap-1 lg:grid grid-rows-5">
                     {/*  */}
-                    <div className="w-full row-span-3">
+                    <div className="x2xl:h-[600px] h-[900px] overflow-hidden row-span-3">
                         <SearchPairs />
                     </div>
                     {/* order trade */}
-                    <div className="row-span-2">
+                    <div className="row-span-2  h-auto overflow-hidden">
                         <MarketTrades />
                     </div>
                 </div>
-                <div className='h-[400px] w-full col-span-6'>
+                {/* BOTTOM */}
+                <div className='h-[400px] w-full x2xl:col-span-5 col-span-6'>
                     <OpenOrders />
                 </div>
             </div>

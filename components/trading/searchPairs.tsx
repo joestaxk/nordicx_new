@@ -5,8 +5,8 @@ import HorizontalScrollUi from '../ui/horizontalScrollUi';
 
 export default function SearchPairs() {
     return (
-        <div className='bg-xDark x3xl:w-[330px] lg:w-[285px] w-full h-full p-2'>
-            <div className="">
+        <div className='relative bg-xDark w-full p-2'>
+            <div className="w-full">
                 <TextInputUi
                     type='text'
                     inputPlaceholder={(<div className='flex items-center gap-1'>
@@ -14,9 +14,10 @@ export default function SearchPairs() {
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7917 14.8686C9.88866 15.5706 8.7538 15.9887 7.52133 15.9887C4.57581 15.9887 2.18799 13.6009 2.18799 10.6554C2.18799 7.70983 4.57581 5.32202 7.52133 5.32202C10.4669 5.32202 12.8547 7.70983 12.8547 10.6554C12.8547 11.8878 12.4366 13.0227 11.7346 13.9258L15.3261 17.5173C15.5864 17.7776 15.5864 18.1998 15.3261 18.4601C15.0658 18.7204 14.6436 18.7204 14.3833 18.4601L10.7917 14.8686ZM11.5214 10.6554C11.5214 12.8645 9.73046 14.6554 7.52133 14.6554C5.31219 14.6554 3.52133 12.8645 3.52133 10.6554C3.52133 8.44621 5.31219 6.65535 7.52133 6.65535C9.73046 6.65535 11.5214 8.44621 11.5214 10.6554Z" fill="#6E7583" />
                         </svg>
                         <MutedText className="">Search</MutedText>
-                    </div>)} inputName={''} conversionType={''} />
+                    </div>)} inputName={'search_pair'} conversionType={''} />
             </div>
-            <HorizontalScrollUi className="border-b flex gap-3 xsm:w-full w-[350px] font-medium overflow-x-auto border-gray-50/10">
+            <div className="w-full relative">
+            <HorizontalScrollUi className="border-b flex w-full font-medium overflow-x-auto border-gray-50/10">
                 <button className='py-2'>
                     <MutedText className=''>Favourites</MutedText>
                 </button>
@@ -59,8 +60,59 @@ export default function SearchPairs() {
                 <button className='py-2'>
                     <MutedText className='uppercase'>BTC</MutedText>
                 </button>
+                <button className='py-2'>
+                    <MutedText className='uppercase'>BTC</MutedText>
+                </button>
+                <button className='py-2'>
+                    <MutedText className='uppercase'>USDC</MutedText>
+                </button>
+
+                <button className='py-2'>
+                    <MutedText className='uppercase'>ETH</MutedText>
+                </button>
+
+                <button className='py-2'>
+                    <MutedText className='uppercase'>BTC</MutedText>
+                </button>
+                <button className='py-2'>
+                    <MutedText className='uppercase'>USDC</MutedText>
+                </button>
+
+                <button className='py-2'>
+                    <MutedText className='uppercase'>ETH</MutedText>
+                </button>
+
+                <button className='py-2'>
+                    <MutedText className='uppercase'>BTC</MutedText>
+                </button>
+                <button className='py-2'>
+                    <MutedText className='uppercase'>BTC</MutedText>
+                </button>
+                <button className='py-2'>
+                    <MutedText className='uppercase'>USDC</MutedText>
+                </button>
+
+                <button className='py-2'>
+                    <MutedText className='uppercase'>ETH</MutedText>
+                </button>
+
+                <button className='py-2'>
+                    <MutedText className='uppercase'>BTC</MutedText>
+                </button>
+                <button className='py-2'>
+                    <MutedText className='uppercase'>USDC</MutedText>
+                </button>
+
+                <button className='py-2'>
+                    <MutedText className='uppercase'>ETH</MutedText>
+                </button>
+
+                <button className='py-2'>
+                    <MutedText className='uppercase'>BTC</MutedText>
+                </button>
             </HorizontalScrollUi>
-            <HorizontalScrollUi className='whitespace-nowrap overflow-x-auto py-2  xsm:w-full w-[350px]'>
+
+            <HorizontalScrollUi className='overflow-x-auto w-full py-1'>
                 <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
                     <MutedText className=''>All</MutedText>
                 </button>
@@ -69,33 +121,62 @@ export default function SearchPairs() {
                 <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
                     <MutedText className='!text-white'>Main</MutedText>
                 </button>
-                <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
-                    <MutedText className=''>All</MutedText>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
                 </button>
-                <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
-                    <MutedText className=''>All</MutedText>
+
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
                 </button>
-                <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
-                    <MutedText className=''>All</MutedText>
+
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
                 </button>
-                <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
-                    <MutedText className=''>All</MutedText>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
                 </button>
-                <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
-                    <MutedText className=''>All</MutedText>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
                 </button>
-                <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
-                    <MutedText className=''>All</MutedText>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
                 </button>
-                <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
-                    <MutedText className=''>All</MutedText>
-                </button> <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
-                    <MutedText className=''>All</MutedText>
-                </button> <button className='px-2 hover:bg-[#B4BFD61F] hover:rounded-sm'>
-                    <MutedText className=''>All</MutedText>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button>
+                <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
+                </button> <button className='px-2 rounded-sm bg-[#B4BFD61F] hover:bg-[#B4BFD61F] hover:rounded-sm'>
+                    <MutedText className='!text-white'>Main</MutedText>
                 </button>
             </HorizontalScrollUi>
-            <div className="x2xl:h-[400px] lg:h-[700px] h-[300px] overflow-y-auto">
+            </div>
+
+            <div className="overflow-y-auto x2xl:h-[400px] h-[800px]">
                 <table className='w-full text-left table-fixed'>
                     <thead className='sticky top-0 z-10 bg-xDark'>
                         <tr>
