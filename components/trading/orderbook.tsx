@@ -85,7 +85,7 @@ export default function Orderbook() {
                                             <td className='w-1/3 pr-5'>
                                                 <p className='text-[12px] text-white'>17.52719</p>
                                             </td>
-                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100 }} className={`absolute right-0 h-full bg-xRedColor/10`}></td>
+                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "linear-gradient(90deg, rgba(255,71,97,0.1), rgba(255,71,97,0.2)"}} className={`absolute right-0 z-0 h-full`}></td>
                                         </tr>
                                     ))
                                 }
@@ -123,20 +123,21 @@ export default function Orderbook() {
                                 </tr>
                             </thead>}
                             {/* demo it */}
-                            <tbody>
+                            <tbody >
                                 {
                                     Array.from({ length: 40 }).map((_, index) => (
-                                        <tr className='relative p-4' key={index}>
-                                            <td className='w-1/2 pl-2'>
+                                        <tr className='relative p-4 ' key={index}>
+                                            <td className='w-1/2 pl-2 z-1'>
                                                 <p className='text-[12px] text-xGreenColor'>2,945.80</p>
                                             </td>
-                                            <td className='w-1/2'>
+                                            <td className='w-1/2 z-1'>
                                                 <p className='text-[12px] text-white'>17.52719</p>
                                             </td>
-                                            <td className='w-1/3 pr-5'>
+                                            <td className='w-1/3 pr-5 z-1'>
                                                 <p className='text-[12px] text-white'>17.52719</p>
                                             </td>
-                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100 }} className={`absolute right-0 h-full bg-xGreenColor/10`}></td>
+
+                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "linear-gradient(90deg, rgba(11,186,116,0.1), rgba(11,186,116,0.2)"}} className={`absolute right-0 z-[0] h-full`}></td>
                                         </tr>
                                     ))
                                 }
