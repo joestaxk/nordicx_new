@@ -85,7 +85,7 @@ export default function Orderbook() {
                                             <td className='w-1/3 pr-5'>
                                                 <p className='text-[12px] text-white'>17.52719</p>
                                             </td>
-                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "linear-gradient(90deg, rgba(255,71,97,0.1), rgba(255,71,97,0.2)"}} className={`absolute right-0 z-0 h-full`}></td>
+                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "rgba(255,71,97,0.2)"}} className={`absolute right-0 z-0 h-full`}></td>
                                         </tr>
                                     ))
                                 }
@@ -137,7 +137,7 @@ export default function Orderbook() {
                                                 <p className='text-[12px] text-white'>17.52719</p>
                                             </td>
 
-                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "linear-gradient(90deg, rgba(11,186,116,0.1), rgba(11,186,116,0.2)"}} className={`absolute right-0 z-[0] h-full`}></td>
+                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "rgba(11,186,116,0.2)"}} className={`absolute right-0 z-[0] h-full`}></td>
                                         </tr>
                                     ))
                                 }
