@@ -246,7 +246,7 @@ export default function SearchPairs() {
                                         <p className='text-[12px] text-xRedColor'>0.06%</p>
                                         <MutedText className='text-[12px] text-white'>445.65Ms</MutedText>
                                     </td>
-                                    <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "linear-gradient(90deg, rgba(11,186,116,0), rgba(11,186,116,0.2)"}} className={`absolute right-0 z-0 h-full`}></td>
+                                    {/* <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "linear-gradient(90deg, rgba(11,186,116,0), rgba(11,186,116,0.2)"}} className={`absolute right-0 z-0 h-full`}></td> */}
                                 </tr>
                             ))
                         }

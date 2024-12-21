@@ -46,7 +46,7 @@ export default function Orderbook() {
                     </select>
                     <button>
                         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.5225 7.32825C10.5225 8.52773 9.5538 9.50012 8.35883 9.50012C7.16385 9.50012 6.19513 8.52773 6.19513 7.32825M10.5225 7.32825C10.5225 6.12875 9.5538 5.15637 8.35883 5.15637C7.16385 5.15637 6.19513 6.12875 6.19513 7.32825M10.5225 7.32825H16.4602M6.19513 7.32825H4.03955M9.97733 14.716C9.97733 13.5165 10.946 12.5441 12.141 12.5441C13.336 12.5441 14.3047 13.5165 14.3047 14.716M9.97733 14.716C9.97733 15.9155 10.946 16.8878 12.141 16.8878C13.336 16.8878 14.3047 15.9155 14.3047 14.716M9.97733 14.716H4.03963M14.3047 14.716H16.4603" stroke="#87909F" stroke-width="1.38847" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M10.5225 7.32825C10.5225 8.52773 9.5538 9.50012 8.35883 9.50012C7.16385 9.50012 6.19513 8.52773 6.19513 7.32825M10.5225 7.32825C10.5225 6.12875 9.5538 5.15637 8.35883 5.15637C7.16385 5.15637 6.19513 6.12875 6.19513 7.32825M10.5225 7.32825H16.4602M6.19513 7.32825H4.03955M9.97733 14.716C9.97733 13.5165 10.946 12.5441 12.141 12.5441C13.336 12.5441 14.3047 13.5165 14.3047 14.716M9.97733 14.716C9.97733 15.9155 10.946 16.8878 12.141 16.8878C13.336 16.8878 14.3047 15.9155 14.3047 14.716M9.97733 14.716H4.03963M14.3047 14.716H16.4603" stroke="#87909F" strokeWidth="1.38847" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </button>
                 </div>
@@ -85,7 +85,7 @@ export default function Orderbook() {
                                             <td className='w-1/3 pr-5'>
                                                 <p className='text-[12px] text-white'>17.52719</p>
                                             </td>
-                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "rgba(255,71,97,0.2)"}} className={`absolute right-0 z-0 h-full`}></td>
+                                            {/* <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "rgba(255,71,97,0.2)"}} className={`absolute right-0 z-0 h-full`}></td> */}
                                         </tr>
                                     ))
                                 }
@@ -137,7 +137,7 @@ export default function Orderbook() {
                                                 <p className='text-[12px] text-white'>17.52719</p>
                                             </td>
 
-                                            <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "rgba(11,186,116,0.2)"}} className={`absolute right-0 z-[0] h-full`}></td>
+                                            {/* <td style={{ width: (((Math.floor(1 + Math.random() * 100))) / 20) * 100, background: "rgba(11,186,116,0.2)"}} className={`absolute right-0 z-[0] h-full`}></td> */}
                                         </tr>
                                     ))
                                 }

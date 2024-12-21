@@ -16,6 +16,8 @@ export default {
         xRedColor: "#FF4761",
         xGreenColor: "#0BBA74",
         xBlueColor: "#4281FF",
+        xButtonColor: "#0485EC",
+        xBlueThickColor: "#4281FF"
       },
       screens: {
         "x3xl": "1690px",
