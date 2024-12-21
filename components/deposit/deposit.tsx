@@ -1,14 +1,11 @@
 "use client";
-import React, { useState } from 'react'
+import React from 'react'
 import MutedText from '../ui/muted-text'
 import Link from 'next/link'
-import Button from '../ui/button';
-import TextInputUi from '../ui/input-ui';
 import Image from 'next/image';
 
 
 export default function Deposit() {
-    const [accordion, setAccordion] = useState({})
     return (
         <div className='py-[3rem] bg-xDark text-white flex justify-center'>
             <div className="w-[1200px] pt-[1rem] text-[13px] max-w-full px-5">
@@ -289,7 +286,7 @@ export default function Deposit() {
                                 </tr>
                             </thead>
                             <tbody>
-                                {Array.from({ length: 20 }).map(() => (<tr className='last:border-none border-b border-xMutedText/20'>
+                                {Array.from({ length: 20 }).map((_, i) => (<tr key={i} className='last:border-none border-b border-xMutedText/20'>
                                     <td className='font-medium py-2 text-[13px] capitalize pl-2'>
                                         <p className=''>USDC</p>
                                     </td>

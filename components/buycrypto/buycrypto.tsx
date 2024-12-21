@@ -32,7 +32,7 @@ const howDoesItWork = [
     },
 ]
 export default function BuyCrypto() {
-    const [accordion, setAccordion] = useState({})
+    const [, setAccordion] = useState({})
     return (
         <div className='py-[3rem] bg-xDark text-white flex justify-center'>
             <div className="w-[1200px] lg:pt-[5rem] pt-[2rem] flex text-[13px] max-w-full lg:flex-row flex-col gap-12 px-5">
@@ -99,7 +99,7 @@ export default function BuyCrypto() {
 
                         <p>
                             You are visiting Fiat Services operated by MEXC Estonia
-                            OÜ. By clicking 'Buy Now', it represents that you have read
+                            OÜ. By clicking &apos;Buy Now&apos;, it represents that you have read
                             and agreed to the <Link href={"#terms"} target='_blank' className='text-xBlueThickColor'>Terms of Conditions</Link> and <Link href={"#terms"} target='_blank' className='text-xBlueThickColor'>Privacy Policy </Link>
                             of MEXC Estonia OÜ.
                         </p>
@@ -126,7 +126,7 @@ export default function BuyCrypto() {
                                 <div className="space-y-5">
                                     {
                                         howDoesItWork.map(({ title, desc, actionLink, actionText }, i) => (
-                                            <div className="relative">
+                                            <div className="relative" key={i}>
                                                 <button className="flex items-center gap-2 cursor-pointer" onClick={() => setAccordion({ [i]: true })}>
                                                     <div className={`w-4 h-4 border-2 border-xBlueThickColor rounded-full ${(howDoesItWork.length - 1 !== i) && "after:content after:block after:w-[0.06rem] after:h-[85px] after:mt-5 after:ml-1  after:bg-xMutedText/20"}`}></div>
                                                     <h2 className='text-[15px] font-medium'>

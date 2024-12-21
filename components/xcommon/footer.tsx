@@ -202,8 +202,8 @@ export default function Footer() {
                     <h3 className='text-xMutedText font-semibold capitalize'>About</h3>
                     <ul className='space-y-2 mt-4'>
                         {
-                            footerData.aboutUs.map(({ link, text }) => (
-                                <li className='text-[13px]'><Link href={link}>{text}</Link></li>
+                            footerData.aboutUs.map(({ link, text }, i) => (
+                                <li key={i} className='text-[13px]'><Link href={link}>{text}</Link></li>
                             ))
                         }
                     </ul>
@@ -212,8 +212,8 @@ export default function Footer() {
                     <h3 className='text-xMutedText font-semibold capitalize'>Services</h3>
                     <ul className='space-y-2 mt-4'>
                         {
-                            footerData.services.map(({ link, text }) => (
-                                <li className='text-[13px]'><Link href={link}>{text}</Link></li>
+                            footerData.services.map(({ link, text }, i) => (
+                                <li key={i} className='text-[13px]'><Link href={link}>{text}</Link></li>
                             ))
                         }
                     </ul>
@@ -222,8 +222,8 @@ export default function Footer() {
                     <h3 className='text-xMutedText font-semibold capitalize'>user support</h3>
                     <ul className='space-y-2 mt-4'>
                         {
-                            footerData.services.map(({ link, text }) => (
-                                <li className='text-[13px]'><Link href={link}>{text}</Link></li>
+                            footerData.services.map(({ link, text }, i) => (
+                                <li key={i} className='text-[13px]'><Link href={link}>{text}</Link></li>
                             ))
                         }
                     </ul>
@@ -232,8 +232,8 @@ export default function Footer() {
                     <h3 className='text-xMutedText font-semibold capitalize'>buy crypto</h3>
                     <ul className='space-y-2 mt-4'>
                         {
-                            footerData.buyCrypto.map(({ link, text }) => (
-                                <li className='text-[13px]'><Link href={link}>{text}</Link></li>
+                            footerData.buyCrypto.map(({ link, text }, i) => (
+                                <li key={i} className='text-[13px]'><Link href={link}>{text}</Link></li>
                             ))
                         }
                     </ul>
@@ -242,8 +242,8 @@ export default function Footer() {
                     <h3 className='text-xMutedText font-semibold capitalize'>contact us</h3>
                     <ul className='space-y-2 mt-4'>
                         {
-                            footerData.contactUs.map(({ link, text }) => (
-                                <li className='text-[13px]'><Link href={link}>{text}</Link></li>
+                            footerData.contactUs.map(({ link, text }, i) => (
+                                <li key={i} className='text-[13px]'><Link href={link}>{text}</Link></li>
                             ))
                         }
                     </ul>
@@ -252,8 +252,8 @@ export default function Footer() {
                     <h3 className='text-xMutedText font-semibold capitalize'>community</h3>
                     <ul className='space-y-2 mt-4 flex items-center gap-3'>
                         {
-                            footerData.community.map(({ link, text }) => (
-                                <li className='text-[13px]'><Link href={link} dangerouslySetInnerHTML={{__html: text}}></Link></li>
+                            footerData.community.map(({ link, text }, i) => (
+                                <li key={i} className='text-[13px]'><Link href={link} dangerouslySetInnerHTML={{__html: text}}></Link></li>
                             ))
                         }
                     </ul>

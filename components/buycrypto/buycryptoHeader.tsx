@@ -4,7 +4,7 @@ import MutedText from '../ui/muted-text'
 
 export default function BuycryptoHeader({tabs, setTabs}: {
     tabs: number,
-    setTabs: any
+    setTabs: (params: number) => void
 }) {
     return (
         <div className='bg-[#111214] border-xMutedText flex justify-center md:h-[80px] h-[50px]'>
