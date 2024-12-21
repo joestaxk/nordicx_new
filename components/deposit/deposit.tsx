@@ -8,7 +8,7 @@ import Image from 'next/image';
 export default function Deposit() {
     return (
         <div className='py-[3rem] bg-xDark text-white flex justify-center'>
-            <div className="w-[1200px] pt-[1rem] text-[13px] max-w-full px-5">
+            <div className="w-[1200px] pt-[1rem] text-[13px] max-w-full sm:px-5 px-3">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center gap-3">
                         <button className='w-8 h-8 rounded-full flex items-center justify-center border border-xMutedText/30 '>

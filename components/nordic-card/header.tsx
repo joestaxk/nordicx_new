@@ -18,7 +18,7 @@ export default function CardHeader() {
                         <Link href="#" className='text-xBlueThickColor font-semibold'>Application Rules</Link>
                     </div>
 
-                    <Button className="flex gap-1 items-center text-white p-3 !rounded-full bg-xBlueThickColor md:w-[200px] w-[150px] justify-center">
+                    <Button className="flex gap-1 items-center text-white p-3 !rounded-full bg-xBlueThickColor md:w-[200px] w-[160px] justify-center">
                         <span>Apply Now</span>
                         <svg width="12" height="5" viewBox="0 0 12 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11.5073 4.81543H0.0698242V3.37012H9.70264L8.64014 0.456055H9.94482L11.5073 4.58887V4.81543Z" fill="white" />

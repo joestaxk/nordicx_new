@@ -21,7 +21,7 @@ export default function Withdrawal() {
                     <Link href={"#"} className='text-xBlueThickColor'>How To Withdraw?</Link>
                 </div>
 
-                <div className="w-full flex lg:flex-row flex-col gap-12 bg-[#111214] mt-5 rounded-sm px-5 py-5">
+                <div className="w-full flex lg:flex-row flex-col gap-12 bg-[#111214] mt-5 rounded-sm sm:px-5 px-3 py-5">
                     <div className="lg:w-1/2 flex justify-center">
                         <form action="" className='w-[500px] space-y-3'>
                             <div className="space-y-5">
