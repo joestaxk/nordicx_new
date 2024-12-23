@@ -50,16 +50,16 @@ export default function WidgetSection({ tabs, setTabs }: {
                 <div className="w-[1200px] max-w-full">
                     <div className="flex md:justify-between md:items-center justify-normal gap-5 mb-6 w-full md:flex-row flex-col">
                         <div className="flex gap-3 items-center overflow-x-auto whitespace-nowrap w-full py-2 overflow-y-hidden font-bold">
-                            <button className={`md:leading-[51px] leading-[21px] ${tabs == 1 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>Favorites</button>
-                            <button className={`md:leading-[51px] leading-[21px] ${tabs == 2 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>Spot</button>
+                            <button onClick={() => setTabs(1)} className={`md:leading-[51px] leading-[21px] ${tabs == 1 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>Favorites</button>
+                            <button onClick={() => setTabs(2)} className={`md:leading-[51px] leading-[21px] ${tabs == 2 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>Spot</button>
                             <div className="flex items-center gap-3">
-                                <button className={`md:leading-[51px] leading-[21px] ${tabs == 3 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>
+                                <button onClick={() => setTabs(3)} className={`md:leading-[51px] leading-[21px] ${tabs == 3 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>
                                     Futures
                                 </button>
                                 <div className="text-xBlueColor w-fit text-[12px] px-2 py-1 rounded-md bg-[#0F1E3B]">Marker 0.000% / Taker 0.000%</div>
                             </div>
-                            <button className={`md:leading-[51px] leading-[21px] ${tabs == 4 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>P2P</button>
-                            <button className={`md:leading-[51px] leading-[21px] ${tabs == 5 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>Third-party</button>
+                            <button onClick={() => setTabs(4)} className={`md:leading-[51px] leading-[21px] ${tabs == 4 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>P2P</button>
+                            <button onClick={() => setTabs(5)} className={`md:leading-[51px] leading-[21px] ${tabs == 5 ? "border-b-2 border-xBlueThickColor text-white" : "text-xMutedText"}`}>Third-party</button>
                         </div>
 
                         <div className="w-[350px] max-w-full">
