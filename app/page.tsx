@@ -21,6 +21,10 @@ export default function Home() {
           <li className="mb-2">
              <Link href={"nordic-card"}>Nordic Card</Link>
           </li>
+
+          <li className="mb-2">
+             <Link href={"market"}>Market</Link>
+          </li>
         </ol>
       </main>
     </div>

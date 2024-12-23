@@ -67,7 +67,7 @@ export default function Exchange() {
       <div className="xsm:px-5 px-2">
         <div className="w-full pt-3">
           <div className="w-full flex flex-wrap justify-between items-center gap-2">
-            <div className="flex xxs:justify-between xxs:w-full items-center gap-2">
+            <div className="flex xxs:justify-normal justify-between xxs:w-full items-center gap-2">
               <button className="text-[13px]">Limit</button>
               <button><MutedText>Market</MutedText></button>
               <button className="appearance-none flex items-center gap-1">
