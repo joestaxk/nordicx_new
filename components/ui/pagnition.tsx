@@ -68,7 +68,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }: PaginationProps) 
       <button
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
-        className="p-2 disabled:opacity-50 w-[40px] h-[40px] rounded-full flex items-center justify-center bg-[#18191C]"
+        className="p-2 disabled:opacity-50 xsm:w-[40px] w-[20px] xsm:h-[40px] h-[20px] text-[14px] rounded-full flex items-center justify-center bg-[#18191C]"
       >
         <svg width="11" height="11" viewBox="0 0 7 11" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path d="M6.87166 1.16511V0.130708C6.87166 0.0410502 6.76862 -0.00846212 6.69904 0.0464028L0.666567 4.7581C0.615313 4.79796 0.57384 4.849 0.545312 4.90732C0.516783 4.96565 0.501953 5.02972 0.501953 5.09465C0.501953 5.15958 0.516783 5.22365 0.545312 5.28197C0.57384 5.3403 0.615313 5.39134 0.666567 5.4312L6.69904 10.1429C6.76996 10.1978 6.87166 10.1482 6.87166 10.0586V9.02418C6.87166 8.95861 6.84088 8.89572 6.79003 8.85557L1.97262 5.09532L6.79003 1.33372C6.84088 1.29358 6.87166 1.23068 6.87166 1.16511Z" />
@@ -87,7 +87,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }: PaginationProps) 
                 currentPage === page
                   ? 'bg-xButtonColor text-white'
                   : 'border border-xMutedText/20 bg-black/50'
-              } w-[40px] h-[40px] rounded-full flex items-center justify-center`}
+              } xsm:w-[40px] w-[20px] xsm:h-[40px] h-[20px] text-[14px] rounded-full flex items-center justify-center`}
             >
               {page}
             </button>
@@ -99,7 +99,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }: PaginationProps) 
       <button
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
-        className="p-2 disabled:opacity-50 w-[40px] h-[40px] rounded-full flex items-center justify-center bg-[#18191C]"
+        className="p-2 disabled:opacity-50 xsm:w-[40px] w-[20px] xsm:h-[40px] h-[20px] text-[14px] rounded-full flex items-center justify-center bg-[#18191C]"
       >
         <svg width="11" height="11" viewBox="0 0 7 11" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="rotate-180">
           <path d="M6.87166 1.16511V0.130708C6.87166 0.0410502 6.76862 -0.00846212 6.69904 0.0464028L0.666567 4.7581C0.615313 4.79796 0.57384 4.849 0.545312 4.90732C0.516783 4.96565 0.501953 5.02972 0.501953 5.09465C0.501953 5.15958 0.516783 5.22365 0.545312 5.28197C0.57384 5.3403 0.615313 5.39134 0.666567 5.4312L6.69904 10.1429C6.76996 10.1978 6.87166 10.1482 6.87166 10.0586V9.02418C6.87166 8.95861 6.84088 8.89572 6.79003 8.85557L1.97262 5.09532L6.79003 1.33372C6.84088 1.29358 6.87166 1.23068 6.87166 1.16511Z"/>
