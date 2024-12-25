@@ -71,8 +71,8 @@ export default function Login() {
     }
 
     return (
-        <div className='flex items-center justify-center pt-[8rem]'>
-            <div className="w-[350px] space-y-3">
+        <div className='flex items-center justify-center md:pt-[8rem] pt-[4rem]'>
+            <div className="w-[350px] max-w-full px-3 space-y-3">
                 <div className="">
                     <h1 className='font-bold text-[1.4rem]'>Welcome to NordicX</h1>
                     <MutedText className=''>First login counts as sign-up</MutedText>
