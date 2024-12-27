@@ -231,11 +231,11 @@ export default function SearchPairs() {
                                 <tr className='relative' key={index}>
                                     <td>
                                         <p className='text-[12px] capitalize flex items-center gap-[0.07rem]'>
-                                            <span className='text-white'>MX</span>
+                                            <span className='text-white'>ETH</span>
                                             <MutedText>/ USDT</MutedText>
                                         </p>
                                         <p className='text-[12px] capitalize flex items-center'>
-                                            <MutedText>Mx token</MutedText>
+                                            <MutedText>ETH token</MutedText>
                                         </p>
                                     </td>
                                     <td>

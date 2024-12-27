@@ -222,10 +222,10 @@ export default function WidgetSection({ tabs, setTabs }: {
                                             <Image src="/new-7/marketListIcon.png" alt="" width={30} height={30} />
                                             <div className="">
                                                 <div className="uppercase flex items-center text-[14px] font-semibold">
-                                                    <span>MX</span>
+                                                    <span>ETH</span>
                                                     <MutedText className='text-[14px]'>/USDT</MutedText>
                                                 </div>
-                                                <MutedText>MX token</MutedText>
+                                                <MutedText>ETH token</MutedText>
                                             </div>
                                         </div>
                                     </td>

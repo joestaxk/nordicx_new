@@ -21,11 +21,11 @@ const footerData = {
             link: "#"
         },
         {
-            text: "M-Ventures",
+            text: "Nordic Labs",
             link: "#"
         },
         {
-            text: "MEXC Blog",
+            text: "NordicX Blog",
             link: "#"
         },
     ],
@@ -35,7 +35,7 @@ const footerData = {
             link: "#"
         },
         {
-            text: "Download MEXC",
+            text: "Download NordicX",
             link: "#"
         },
         {
@@ -95,7 +95,7 @@ const footerData = {
             link: "#"
         },
         {
-            text: "Buy MX Token",
+            text: "Buy ETH Token",
             link: "#"
         },
         {

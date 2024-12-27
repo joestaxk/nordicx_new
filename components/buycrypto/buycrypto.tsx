@@ -98,10 +98,10 @@ export default function BuyCrypto() {
                         </div>
 
                         <p>
-                            You are visiting Fiat Services operated by MEXC Estonia
+                            You are visiting Fiat Services operated by NordicX Estonia
                             OÜ. By clicking &apos;Buy Now&apos;, it represents that you have read
                             and agreed to the <Link href={"#terms"} target='_blank' className='text-xBlueThickColor'>Terms of Conditions</Link> and <Link href={"#terms"} target='_blank' className='text-xBlueThickColor'>Privacy Policy </Link>
-                            of MEXC Estonia OÜ.
+                            of NordicX Estonia OÜ.
                         </p>
 
 
@@ -164,8 +164,8 @@ export default function BuyCrypto() {
                             </div>
 
                             <p className='mb-1'>If you have any questions regarding the payment, please contact us via Telegram</p>
-                            <p>(<span className='text-xBlueThickColor'>@MEXC OTC</span>) or email</p>
-                            <p className='text-xBlueThickColor'>(<Link href={"mailto:   service@mexceu.com"}>service@mexceu.com</Link>)</p>
+                            <p>(<span className='text-xBlueThickColor'>@NordicX OTC</span>) or email</p>
+                            <p className='text-xBlueThickColor'>(<Link href={"mailto:   service@NordicXeu.com"}>service@NordicXeu.com</Link>)</p>
                         </div>
                     </div>
                 </div>

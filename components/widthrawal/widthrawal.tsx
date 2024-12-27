@@ -69,7 +69,7 @@ export default function Withdrawal() {
                                     <div className="">
                                         <div className="border-b border-xMutedText/20 flex gap-5">
                                             <button className='border-b-2 border-xBlueThickColor pb-2 capitalize'>Address</button>
-                                            <button className='pb-2 capitalize text-xMutedText'>MEXC User</button>
+                                            <button className='pb-2 capitalize text-xMutedText'>NordicX User</button>
                                         </div>
 
                                         <div className="space-y-2">
@@ -127,7 +127,7 @@ export default function Withdrawal() {
                                         </div>
                                     </div>
 
-                                    {/* MEXC User */}
+                                    {/* NordicX User */}
                                 </div>
                                 <div className="flex gap-2 items-center">
                                     <div className="w-5 h-5 bg-[#222429] flex justify-center items-center rounded-full">
@@ -156,7 +156,7 @@ export default function Withdrawal() {
                             <div className="space-y-3 pl-4 mt-3 text-[14px]">
                                 <div className="">
                                     Enjoy 0 transaction fees <MutedText>and fast speed for withdrawals
-                                        made to your MEXC custodial wallet.</MutedText>
+                                        made to your NordicX custodial wallet.</MutedText>
                                 </div>
                                 <MutedText>
                                     This address only supports deposit of USDT assets. Do
@@ -164,7 +164,7 @@ export default function Withdrawal() {
                                     will not be credited or recoverable.
                                 </MutedText>
                                 <MutedText>
-                                    MEXC is currently processing all related business
+                                    NordicX is currently processing all related business
                                     matters in response to the latest compliance rules
                                     launched by the Korean platforms. <span className='text-[#EB771A]'>
                                         Please do not
@@ -176,7 +176,7 @@ export default function Withdrawal() {
 
                                 <MutedText>
                                     Please do not withdraw funds to an ICO address or for
-                                    crowdfunding. MEXC will not be responsible for
+                                    crowdfunding. NordicX will not be responsible for
                                     distributing any future tokens you may receive.
                                 </MutedText>
                             </div>
@@ -192,7 +192,7 @@ export default function Withdrawal() {
                                         <path d="M15.0834 17.5846H3.41675C2.75371 17.5846 2.11782 17.3212 1.64898 16.8524C1.18014 16.3836 0.916748 15.7477 0.916748 15.0846V1.7513C0.916748 1.53029 1.00455 1.31833 1.16083 1.16205C1.31711 1.00577 1.52907 0.917969 1.75008 0.917969H13.4167C13.6378 0.917969 13.8497 1.00577 14.006 1.16205C14.1623 1.31833 14.2501 1.53029 14.2501 1.7513V11.7513H16.7501C17.2103 11.7513 17.5834 12.1244 17.5834 12.5846V15.0846C17.5834 15.7477 17.32 16.3836 16.8512 16.8524C16.3823 17.3212 15.7465 17.5846 15.0834 17.5846ZM14.2501 13.418V15.0846C14.2501 15.3056 14.3379 15.5176 14.4942 15.6739C14.6504 15.8302 14.8624 15.918 15.0834 15.918C15.3044 15.918 15.5164 15.8302 15.6727 15.6739C15.829 15.5176 15.9167 15.3056 15.9167 15.0846V13.418H14.2501ZM12.5834 15.918V2.58464H2.58341V15.0846C2.58341 15.3056 2.67121 15.5176 2.82749 15.6739C2.98377 15.8302 3.19573 15.918 3.41675 15.918H12.5834ZM4.25008 5.91797C4.25008 5.45773 4.62318 5.08464 5.08341 5.08464H10.0834C10.5437 5.08464 10.9167 5.45773 10.9167 5.91797C10.9167 6.37821 10.5437 6.7513 10.0834 6.7513H5.08341C4.62318 6.7513 4.25008 6.37821 4.25008 5.91797ZM4.25008 9.2513C4.25008 8.79106 4.62318 8.41797 5.08341 8.41797H10.0834C10.5437 8.41797 10.9167 8.79106 10.9167 9.2513C10.9167 9.7115 10.5437 10.0846 10.0834 10.0846H5.08341C4.62318 10.0846 4.25008 9.7115 4.25008 9.2513ZM4.25008 12.5846C4.25008 12.1244 4.62318 11.7513 5.08341 11.7513H7.58341C8.04365 11.7513 8.41675 12.1244 8.41675 12.5846C8.41675 13.0449 8.04365 13.418 7.58341 13.418H5.08341C4.62318 13.418 4.25008 13.0449 4.25008 12.5846Z" fill="#6E7583" />
                                     </svg>
 
-                                    <Link href={"#"} className='text-xMutedText'>How to Withdraw on MEXC?</Link>
+                                    <Link href={"#"} className='text-xMutedText'>How to Withdraw on NordicX?</Link>
                                 </li>
                                 <li className='flex gap-2 items-center'>
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
